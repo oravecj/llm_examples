@@ -1,4 +1,4 @@
-# Python LLM Example Project
+# Python LLM examples
 
 ## Project Overview
 
@@ -61,5 +61,5 @@ This example demonstrates the use of functions in the agent-based system, allowi
 
 3. Create .env and set API KEY
     ```bash
-    API_KEY = 'your-api-key'
-    API_URL = 'https://api.openai.com/v1/chat/completions'
+    API_KEY=your-api-key
+    API_URL=https://api.openai.com/v1/chat/completions
