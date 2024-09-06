@@ -54,10 +54,12 @@ This example demonstrates the use of functions in the agent-based system, allowi
    git clone https://github.com/oravecj/llm_examples
    cd llm-examples
 2. Install requirements:
+   ```bash
    python -m venv venv
    source venv/Scipts/activate
    pip install -r requirements.txt
 
 3. Create .env and set API KEY
-    `API_KEY = 'your-api-key'`
-    `API_URL = 'https://api.openai.com/v1/chat/completions'`
+    ```bash
+    API_KEY = 'your-api-key'
+    API_URL = 'https://api.openai.com/v1/chat/completions'
