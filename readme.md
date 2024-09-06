@@ -43,3 +43,21 @@ A simple agent-based example where the LLM acts as an intelligent agent, taking 
 This example demonstrates the use of functions in the agent-based system, allowing the LLM to perform specific tasks or make decisions. It showcases how to integrate the model with more advanced logic.
 
 ---
+### Prerequisites
+- Python 3.8+
+- `requests` and `dotenv` library
+- OpenAI API key
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/oravecj/llm_examples
+   cd llm-examples
+2. Install requirements:
+   python -m venv venv
+   source venv/Scipts/activate
+   pip install -r requirements.txt
+
+3. Create .env and set API KEY
+    `API_KEY = 'your-api-key'`
+    `API_URL = 'https://api.openai.com/v1/chat/completions'`
